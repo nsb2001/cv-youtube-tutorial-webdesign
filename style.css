@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+    max-width: 1000px;
+    background-color: #4d57b4;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio {
+    float: left;
+    padding: 30px;
+    color: white;
+}
+
+.header-contact {
+    float: right;
+    padding: 35px;
+}
+
+.header-contact p a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-contact p a:hover {
+
+    color: black;
+    
+
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: 2px solid black;
+    margin: 15px auto;
+    border-radius: none;
+}
+/* Personal Details Start*/
+
+.personal-details{
+
+    padding: 20px;
+
+}
+
+
+
+/* Work-Experience Start*/
+
+.common-div{
+    padding: 20px;
+}
+
+.left-div {
+    color: white;
+    float: left;
+    width: 35%;
+}
+ .right-div {
+    color: black;
+    float: right;
+    width: 65%;
+
+}
+
+
+.para1{
+    float:left;
+    color:black;
+    width: 45%;
+}
+
+.para2{
+    float: right;
+    color: black;
+    width: 40%;
+}
+
+/* Work-Experience End */
+
+.hilait{
+    color: rgb(202, 51, 25);
+    font-weight: 2px;
+}
+
+.foot{
+    background-color: black;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.foot a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.foot p{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.fut-cpy{
+    font-size: small;
+}
+
+
